@@ -12,7 +12,7 @@
 
 ```java
 
-Button bt ; 
+TextView tv ; 
 ......
 Then
 ......
@@ -23,7 +23,8 @@ private void MyMethod(){
         imageViewOC.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
- 
+
+ 		tv.setText("Answer")
             }
         });
 }
