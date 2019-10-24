@@ -29,7 +29,6 @@ private void MyMethod(){
         });
 }
 
-
 ```
 
 > via le layout : android:onClick="NomDeLaMéthode"
