@@ -18,7 +18,7 @@ Then
 ......
 private void MyMethod(){
       
-       imageViewOC =(ImageView) findViewById(R.id.imageView) ;
+       tv = (TextView) findViewById(R.id.TextView) ;
        
         imageViewOC.setOnClickListener(new View.OnClickListener() {
             @Override
