@@ -61,7 +61,7 @@ public class MyFragment extends Fragment{
         mMeetingApiService.deleteToMeetingList(event.mMeeting);
     }
 ```
-> À ajouter dans la classe receveur
+> À ajouter dans chez le receveur
 
 ```java
     @Override
